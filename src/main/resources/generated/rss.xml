@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Pokémon Generations and Starters</title>
+    <link>src/main/resources/generated/index.html</link>
+    <description>This webpage shows Pokémon Generations and its respective starters</description>
+    <item>
+      <title>Pokémon: Red and Blue</title>
+      <link>src/main/resources/generated/details_1.html</link>
+      <description>Starters: Bulbasaur (Grass), Charmander (Fire), Squirtle (Water)</description>
+      <guid>src/main/resources/generated/details_1.html</guid>
+    </item>
+    <item>
+      <title>Pokémon: Gold and Silver</title>
+      <link>src/main/resources/generated/details_2.html</link>
+      <description>Starters: Chikorita (Grass), Cyndaquil (Fire), Totodile (Water)</description>
+      <guid>src/main/resources/generated/details_2.html</guid>
+    </item>
+    <item>
+      <title>Pokémon: Ruby and Sapphire</title>
+      <link>src/main/resources/generated/details_3.html</link>
+      <description>Starters: Treecko (Grass), Torchic (Fire), Mudkip (Water)</description>
+      <guid>src/main/resources/generated/details_3.html</guid>
+    </item>
+    <item>
+      <title>Pokémon: Diamond and Pearl</title>
+      <link>src/main/resources/generated/details_4.html</link>
+      <description>Starters: Turtwig (Grass), Chimchar (Fire), Piplup (Water)</description>
+      <guid>src/main/resources/generated/details_4.html</guid>
+    </item>
+    <item>
+      <title>Pokémon: Black and White</title>
+      <link>src/main/resources/generated/details_5.html</link>
+      <description>Starters: Snivy (Grass), Tepig (Fire), Oshawott (Water)</description>
+      <guid>src/main/resources/generated/details_5.html</guid>
+    </item>
+  </channel>
+</rss>

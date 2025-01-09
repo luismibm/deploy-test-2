@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pokemon-generations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "generation-num": {
+            "type": "integer"
+          },
+          "generation-name": {
+            "type": "string"
+          },
+          "generation-map": {
+            "type": "string"
+          },
+          "starters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "starter-num": {
+                  "type": "integer"
+                },
+                "starter-name": {
+                  "type": "string"
+                },
+                "starter-type": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

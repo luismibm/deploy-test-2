@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generations</title>
+    <link rel="stylesheet" type="text/css" href="styleTemplateGenerations.css">
+</head>
+<body>
+    <header>
+        <h1 th:text="${name}"></h1>
+        <p th:text="${description}"></p>
+    </header>
+    <main>
+        <table>
+            <thead>
+            <tr>
+                <th>Num</th>
+                <th>Name</th>
+                <th>Map</th>
+                <th>Starters</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="generation : ${generations}">
+                <td th:text="${generation.generationNum}"></td>
+                <td th:text="${generation.generationName}"></td>
+                <td th:text="${generation.generationMap}"></td>
+                <td><a th:href="@{'details_' + ${generation.generationNum} + '.html'}">See Starters</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

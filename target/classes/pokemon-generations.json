@@ -1,0 +1,114 @@
+{
+  "pokemon-generations": [
+    {
+      "generation-num": 1,
+      "generation-name": "Pokémon: Red and Blue",
+      "generation-map": "Kanto",
+      "starters": [
+        {
+          "starter-num": 1,
+          "starter-name": "Bulbasaur",
+          "starter-type": "Grass"
+        },
+        {
+          "starter-num": 2,
+          "starter-name": "Charmander",
+          "starter-type": "Fire"
+        },
+        {
+          "starter-num": 3,
+          "starter-name": "Squirtle",
+          "starter-type": "Water"
+        }
+      ]
+    },
+    {
+      "generation-num": 2,
+      "generation-name": "Pokémon: Gold and Silver",
+      "generation-map": "Johto",
+      "starters": [
+        {
+          "starter-num": 4,
+          "starter-name": "Chikorita",
+          "starter-type": "Grass"
+        },
+        {
+          "starter-num": 5,
+          "starter-name": "Cyndaquil",
+          "starter-type": "Fire"
+        },
+        {
+          "starter-num": 6,
+          "starter-name": "Totodile",
+          "starter-type": "Water"
+        }
+      ]
+    },
+    {
+      "generation-num": 3,
+      "generation-name": "Pokémon: Ruby and Sapphire",
+      "generation-map": "Hoenn",
+      "starters": [
+        {
+          "starter-num": 7,
+          "starter-name": "Treecko",
+          "starter-type": "Grass"
+        },
+        {
+          "starter-num": 8,
+          "starter-name": "Torchic",
+          "starter-type": "Fire"
+        },
+        {
+          "starter-num": 9,
+          "starter-name": "Mudkip",
+          "starter-type": "Water"
+        }
+      ]
+    },
+    {
+      "generation-num": 4,
+      "generation-name": "Pokémon: Diamond and Pearl",
+      "generation-map": "Sinnoh",
+      "starters": [
+        {
+          "starter-num": 10,
+          "starter-name": "Turtwig",
+          "starter-type": "Grass"
+        },
+        {
+          "starter-num": 11,
+          "starter-name": "Chimchar",
+          "starter-type": "Fire"
+        },
+        {
+          "starter-num": 12,
+          "starter-name": "Piplup",
+          "starter-type": "Water"
+        }
+      ]
+    },
+    {
+      "generation-num": 5,
+      "generation-name": "Pokémon: Black and White",
+      "generation-map": "Unova",
+      "starters": [
+        {
+          "starter-num": 13,
+          "starter-name": "Snivy",
+          "starter-type": "Grass"
+        },
+        {
+          "starter-num": 14,
+          "starter-name": "Tepig",
+          "starter-type": "Fire"
+        },
+        {
+          "starter-num": 15,
+          "starter-name": "Oshawott",
+          "starter-type": "Water"
+        }
+      ]
+    }
+  ]
+}
